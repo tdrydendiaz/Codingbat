@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+
+public class UserManager implements CRUD {
+
+		public ArrayList<Users> UsersList = new ArrayList<Users>();
+
+		@Override
+		public void create() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void read() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void update() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void delete() {
+			// TODO Auto-generated method stub
+			
+		}
+
+//		@Override
+//		public void delete(Users u) {
+//			UsersList.remove(u);
+			
+			
+		}
+
+ 
+
+

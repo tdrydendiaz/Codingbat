@@ -1,0 +1,71 @@
+package com.bae.blackjack.main;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+public class Blackjackmain {
+
+	public static void main(String[] args) {
+
+	}
+
+	public int play(int player, int dealer) {
+		if (dealer == 31 || dealer == 1) {
+			return -1;
+		}
+		if (player == 31 || player == 1) {
+			return -1;
+		}
+		if ((dealer < 31 && player < 31) && (dealer > 3 & player > 3)) {
+			if (dealer < 16) {
+				return (dealer + twist(dealer));
+			}
+           if (dealer > 21 && player > 21) {
+				return 0;}
+           
+			if ((dealer > player && dealer <22)|| (player>21 && dealer<22)) {
+				return dealer;
+				
+			}
+			if ((player > dealer && player <22)|| (dealer>21 && player<22)) {
+				return player;
+			}
+
+			return player;
+		
+		}	
+		return 0;
+
+		public String Test(); {
+		ArrayList<Integer> myList= new ArrayList<Integer>();
+		for (int i=0;i<100;i++) {
+			myList.add(twist(dealer));
+		}
+		
+		for (int a:myList) {
+			if (a>0 && a<12) {
+				continue;
+			}
+			else
+			{ 
+			fail("expected value between 1 & 11 but got" + a);
+			}
+		}}
+		
+//		 static public void assertTrue(String message, boolean condition) {
+//		        if (!condition) {
+//		            fail(message);
+	}
+
+	
+
+
+	public int twist(int dealer) {
+		int card = ((int) (Math.random() * 11) + 1);
+		if (card == 1 && card + dealer < 22) {
+			card = 11;
+		}
+		return card;
+		}
+}
+

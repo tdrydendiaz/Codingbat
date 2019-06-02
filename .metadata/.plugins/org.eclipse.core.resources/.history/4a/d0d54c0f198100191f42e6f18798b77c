@@ -1,0 +1,17 @@
+package Staff;
+
+
+public class Doctor {
+	
+    private String  doctorName;
+	private String  doctorSpeciality;
+	
+	public Doctor(String doctorName, String doctorSpeciality) {
+	this.doctorName=doctorName;
+	this.doctorSpeciality=doctorSpeciality;
+	
+	}
+	
+	
+
+}

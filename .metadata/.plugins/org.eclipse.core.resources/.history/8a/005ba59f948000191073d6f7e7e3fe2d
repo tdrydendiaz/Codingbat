@@ -1,0 +1,45 @@
+import java.util.HashMap;
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		Book b1 = new Book("Magic", 20, "Wizard Joe", "May 10th 2010", "Fiction");
+		Book b2 = new Book("How to cook for Dummies", 100, "Gordon Ramsey", "September 2019", "Non-Fiction");
+		Journals j1 = new Journals("Complex Variables", "Mathematics", "Very Long Read", 0);
+
+		Users u1 = new Users("Stel", "001", 24, "London");
+
+		System.out.println(b1.getAuthor());
+
+		b1.setName("Noodles");
+		System.out.println("Replace Magic with " + b1.getName());
+
+		HashMap<String, String> usernames = new HashMap<String, String>();
+		usernames.put("002", "Tania");
+
+		System.out.println(usernames.get("002"));
+
+		Inventory inv = new Inventory();
+		inv.ItemList.add(b1);
+		inv.ItemList.add(b2);
+		inv.ItemList.add(j1);
+		
+		UserManager users= new UserManager();
+		users.UsersList.add(u1);
+		users.removeUser(u1);
+		
+		
+
+		String s = "Author " + b1.getAuthor() + " on " + b1.getDate() + " wrote a " + b1.getGenre() + " novel with "
+				+ b1.getPages() + " pages and its called " + b1.getName();
+		System.out.println(s);
+
+		for (Items item : inv.ItemList) {
+			String items = "";
+			items = items + item.getName();
+			System.out.println(items);
+		}
+	}
+
+}

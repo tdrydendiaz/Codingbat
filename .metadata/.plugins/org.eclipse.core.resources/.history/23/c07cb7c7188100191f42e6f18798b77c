@@ -1,0 +1,8 @@
+package Staff;
+
+public class Doctor {
+	private String  doctorName;
+	private String  doctorSpeciality;
+	
+
+}

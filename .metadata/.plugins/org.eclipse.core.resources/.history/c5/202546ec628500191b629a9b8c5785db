@@ -1,0 +1,46 @@
+
+public class Warmup1 {
+		
+		
+		
+	public static void main(String[] args) {
+		System.out.println(diff21(3));
+		System.out.println(nearHundred(50));
+		System.out.println(missingChar("Hello", 4));
+	}
+	
+	public static boolean sleepIn(boolean weekday, boolean vacation) {
+			  if (!weekday || vacation){
+			  return true;
+			  }
+			 return false;
+			}
+	public static int diff21(int n) {
+		  if (n <= 21) {
+		    return 21 - n;
+		  } else {
+		    return (n - 21) * 2;
+		  }
+		}
+	public static boolean nearHundred(int n) {
+		  return ((Math.abs(100 - n) <= 10) ||
+		    (Math.abs(200 - n) <= 10));
+		}
+	
+//	Given a non-empty string and an int n, return a new string where the char at index n 
+//   has been removed. The value of n will be a valid index of a char in the original string 
+//   (i.e. n will be in the range 0..str.length()-1 inclusive).
+	public static String missingChar(String str, int n) {
+		  String front = str.substring(0, n);
+		  String back = str.substring(n+1, str.length());
+		  
+		  return front + back;
+		}
+	
+	public String backAround(String str) {
+		  String last = str.substring(str.length() - 1);
+		  return last + str + last;
+		}
+	
+	}
+

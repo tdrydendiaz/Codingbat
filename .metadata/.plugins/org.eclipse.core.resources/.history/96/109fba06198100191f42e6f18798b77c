@@ -1,0 +1,11 @@
+package Staff;
+
+public class Doctor {
+	public Doctor(String doctorName, String doctorSpecitality) {
+		// TODO Auto-generated constructor stub
+	}
+	private String  doctorName;
+	private String  doctorSpeciality;
+	
+
+}

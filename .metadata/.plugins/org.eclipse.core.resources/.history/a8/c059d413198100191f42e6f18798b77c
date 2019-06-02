@@ -1,0 +1,25 @@
+package Staff;
+
+
+public class Doctor {
+	
+    private String  doctorName;
+	private String  doctorSpeciality;
+	
+	public Doctor(String doctorName, String doctorSpeciality) {
+	this.setDoctorName(doctorName);
+	this.doctorSpeciality=doctorSpeciality;
+	
+	}
+
+	public String getDoctorName() {
+		return doctorName;
+	}
+
+	public void setDoctorName(String doctorName) {
+		this.doctorName = doctorName;
+	}
+	
+	
+
+}

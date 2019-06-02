@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\angel\Desktop\BackupWS"/>
+		<item value="C:\Users\angel\Desktop\BackupWS\Paint"/>
+		<item value="E:\BackupWS\DemoSite"/>
+		<item value="E:\BackupWS\Shopping"/>
+		<item value="E:\eclipse-workspace\1"/>
+		<item value="E:\eclipse-workspace\Library"/>
+		<item value="E:\eclipse-workspace\Questions"/>
+		<item value="E:\eclipse-workspace\PractiseStrings"/>
+		<item value="E:\eclipse-workspace\Vehicles\src"/>
+		<item value="C:\Users\angel\Documents\Practice\Practice"/>
+		<item value="C:\Users\angel\Downloads\Practice"/>
+		<item value="C:\Users\angel\Downloads\Practice\Practice"/>
+		<item value="C:\Users\angel\Desktop\First_Project (1)-20190521T200704Z-001"/>
+		<item value="C:\Users\angel\Desktop\Practice\Practice\src"/>
+		<item value="C:\Users\angel\Desktop\Practice\Practice"/>
+		<item value="C:\Users\angel\Desktop\First_Project-20190520T193039Z-001\First_Project"/>
+	</list>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.project"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="546"/>
+		<item key="DIALOG_Y_ORIGIN" value="220"/>
+		<item key="DIALOG_WIDTH" value="828"/>
+		<item key="DIALOG_HEIGHT" value="480"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="534"/>
+		<item key="DIALOG_Y_ORIGIN" value="77"/>
+		<item key="DIALOG_WIDTH" value="875"/>
+		<item key="DIALOG_HEIGHT" value="711"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
